@@ -1,5 +1,5 @@
 # k8s-helpers
-Misc scripts to help with Kubernetes stuff
+Misc scripts to help with Kubernetes stuff.
 
 
 # scripts
