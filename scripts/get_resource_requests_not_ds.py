@@ -5,8 +5,8 @@ import re
 from kubernetes import client, config
 
 config.load_kube_config()
-v1_k8s_api = client.CoreV1Api()
-all_pods = v1_k8s_api.list_pod_for_all_namespaces(watch=False)
+k8s_core_v1_api_client = client.CoreV1Api()
+all_pods = k8s_core_v1_api_client.list_pod_for_all_namespaces(watch=False)
 total_container_memory_requests = 0
 total_container_cpu_requests = 0
 pod_count = 0
