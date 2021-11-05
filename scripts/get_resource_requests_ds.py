@@ -68,7 +68,7 @@ print("CPU Requests: " + str(total_container_cpu_requests) + "m")
 print("Memory Requests: " + str(total_container_memory_requests) + "Mi")
 
 
-# Note tat this has been done roughly and would need to be adjusted depending on how resource values have been set.
+# Note that this has been done roughly and would need to be adjusted depending on how resource values have been set.
 # We expect these formats: Memory 100Mi and CPU 100m.
 # We have special cases for memory given as Gi and CPU given as Int.
 # But nothing further has been added
