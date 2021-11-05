@@ -1,5 +1,5 @@
 """
-Find Conainer Resource Requests and Limits for all Pods in a K8s Cluster.
+Find Container Resource Requests and Limits for all Pods in a K8s Cluster.
 """
 from kubernetes import client, config
 
